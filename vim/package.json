@@ -6,11 +6,11 @@
   "description": "It's a presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.",
   "homepage": "http://github.com/henrikingo/impress.js",
   "main": "js/impress.js",
-  "repository" :
-    { "type" : "git",
-      "url" : "https://github.com/henrikingo/impress.js.git",
-      "github": "https://github.com/henrikingo/impress.js"
-    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henrikingo/impress.js.git",
+    "github": "https://github.com/henrikingo/impress.js"
+  },
   "keywords": [
     "presentation",
     "slides",
@@ -33,6 +33,9 @@
     "buildify": "*",
     "chrome": "0.1.0",
     "firefox": "*",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
     "jscs": "2.11.0",
     "jshint": "2.9.1",
     "karma": "0.13.22",
