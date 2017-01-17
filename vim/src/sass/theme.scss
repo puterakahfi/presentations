@@ -12,7 +12,7 @@ body {
 	background: -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 	background: -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 	background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-	background: $color2;
+	background: $color3;
     color: $color1;
 
 }
@@ -24,6 +24,7 @@ body {
 	font-weight: 700;
 	letter-spacing: -2px;
 	margin-bottom: 10px;
+    line-height: 70px;
 }
 
 .section hr{
