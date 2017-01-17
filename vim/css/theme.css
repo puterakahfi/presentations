@@ -1,0 +1,54 @@
+/* Coolors Exported Palette - coolors.co/011627-fdfffc-2ec4b6-e71d36-ff9f1c */
+/* HSL */
+/* RGB */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,700|Raleway:400,700,900");
+body {
+  font-family: 'PT Sans', sans-serif;
+  min-height: 740px;
+  background: #d7d7d7;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#f0f0f0), to(#bebebe));
+  background: -webkit-radial-gradient(#f0f0f0, #bebebe);
+  background: -moz-radial-gradient(#f0f0f0, #bebebe);
+  background: -ms-radial-gradient(#f0f0f0, #bebebe);
+  background: -o-radial-gradient(#f0f0f0, #bebebe);
+  background: radial-gradient(#f0f0f0, #bebebe);
+  background: #fdfffc;
+  color: #011627; }
+
+.section h1 {
+  font-size: 70px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: -27px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin-bottom: 10px; }
+
+.section hr {
+  color: #fdfffc; }
+
+.section p {
+  font-size: 18pt;
+  line-height: 50px;
+  font-weight: light;
+  font-family: "Helvetica Neue", Helvetica, Arial, serif; }
+
+#intro {
+  background: transparent; }
+
+#intro h1 {
+  font-size: 150px;
+  font-weight: 800;
+  line-height: 120px;
+  font-family: "Raleway", sans-serif; }
+
+#intro h3 {
+  font-size: 100px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: -27px;
+  letter-spacing: 3px; }
+
+#intro p {
+  font-size: 30pt;
+  line-height: 50px;
+  font-weight: light;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }

@@ -10,6 +10,7 @@ body {
 	background: -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 	background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 	background: #F4F4F4;
+	background: #0B0C0E;
 
 }
 
@@ -26,7 +27,7 @@ body {
 	color: black;
 }
 .section p {
-	font-size: 20pt;
+	font-size: 18pt;
 	line-height: 50px;
 	font-weight: light;
 	font-family: "Helvetica Neue", Helvetica, Arial, serif;
