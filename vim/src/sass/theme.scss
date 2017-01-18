@@ -12,8 +12,9 @@ body {
 	background: -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 	background: -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 	background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-	background: $color3;
-    color: $color1;
+	background: $color2;
+    color: $color2;
+	background:  $color4;
 
 }
 
@@ -40,7 +41,7 @@ body {
 	line-height: 50px;
 	font-weight: light;
 	font-family: "Helvetica Neue", Helvetica, Arial, serif;
-}
+	}
 
 #intro{
 	background: transparent;
@@ -54,7 +55,7 @@ body {
 }
 
 #intro h3 {
-	font-size: 100px;
+	font-size: 85px;
 	margin-bottom: -27px;
 	font-family: 'PT Sans';
 	letter-spacing: -6px;

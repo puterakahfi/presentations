@@ -12,8 +12,9 @@ body {
   background: -ms-radial-gradient(#f0f0f0, #bebebe);
   background: -o-radial-gradient(#f0f0f0, #bebebe);
   background: radial-gradient(#f0f0f0, #bebebe);
-  background: #2ec4b6;
-  color: #011627; }
+  background: #fdfffc;
+  color: #fdfffc;
+  background: #e71d36; }
 
 .disabled {
   display: none; }
@@ -47,7 +48,7 @@ body {
   font-family: "Raleway", sans-serif; }
 
 #intro h3 {
-  font-size: 100px;
+  font-size: 85px;
   margin-bottom: -27px;
   font-family: 'PT Sans';
   letter-spacing: -6px; }
