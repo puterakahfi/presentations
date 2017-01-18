@@ -38,6 +38,9 @@ body {
   font-weight: light;
   font-family: "Helvetica Neue", Helvetica, Arial, serif; }
 
+.section ul {
+  font-size: 20px; }
+
 #intro {
   background: transparent; }
 

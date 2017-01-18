@@ -197,9 +197,10 @@
         <div id="vim-key2" class="section  step"   data-scale="6" data-x="-25000" data-y="-9500"   data-width="1000" data-weight="1">
 			 <p>kunci penting yang sangat penting menggunakan vim<p>
              <h1> KESABARAN EXTRA </h1> 
-             <p> mempelajari vim butuh kesabaran, karena vim mempengaruhi cara anda menggunakan keyboard karena hampir semua dilakukan menggunakan keyboard, sangat jarang menggunakan mouse sebagai navigasi </p>
+             <p> mempelajari vim butuh kesabaran, karena vim mempengaruhi cara anda  bekerja </p>
 			 <ul>
 				 <li><a href="http://agung-setiawan.com/dalam-proses-belajar-vim/" target="_blank">dalam proses belajar vim</a></li>
+				 <li><a href="http://agung-setiawan.com/dalam-proses-belajar-vim-bagian-2/" target="_blank">dalam proses belajar vim bagian 2</a></li>
 			 </ul>
 		 </div>
     <div id="vim-mode" class="section step"   data-scale="1" data-x="-15000" data-y="-9500"   data-width="1000" data-weight="1">
@@ -218,10 +219,10 @@
 			<p class="scaling"> <b>Navigasi :</b> navigasi merupakan keahlian yang sangat penting supaya anda bisa dengan leluasa mengeksplore workspace </p>
 			<p class="scaling"> <b>Swich Mode :</b> semakin baik anda bermain di swich mode, maka semakin cantik permainan and a<b>i</b></p>
 		</div>
-        <div id="vim-key" class="section step "   data-scale="6" data-x="-5000" data-y="-9500"   data-width="1000" data-weight="1">
+        <div id="vim-key" class="section step "   data-scale="1" data-x="-5000" data-y="-9500"   data-width="1000" data-weight="1">
 			<h1 class="rotating"> .vimrc  </h1>
 			<hr/>
-			<p class="scaling"> .vimrc adalah tempat dimana konfigurasi, plugin, shortcut, keymap di letakkan, kita bisa melakukan customisasi di sini, seperti  install plugin, setting perintah, shortcut, dan lain-lain</p>
+			<p class="scaling"> .vimrc adalah tempat dimana konfigurasi, plugin, shortcut, keymap di letakkan, kita bisa melakukan customisasi di sini, seperti  install plugin, keymap, default configuration, dan lain-lain</p>
 		</div>
 
     <div id="overview-intro" class="step" data-x="-10000" data-y="-1500"  data-scale="20" data-rotate="-90">
@@ -268,7 +269,7 @@
     <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
         <span class="try">dasar-dasar</span>
         <h1>VIM<sup>*</sup></h1>
-        <span class="footnote"><sup>*</sup> basic vim lainnya bisa di lihat di sini</span>
+        <span class="footnote"><sup>*</sup> basic vim lainnya bisa di lihat di  <a href="http://www.openvim.com/" target="_blank">sini</a></span>
     </div>
 
     <!--
@@ -279,19 +280,43 @@
         element should be rotated by 90 degrees clockwise.
 
     -->
-    <div id="its" class="step section" data-x="850" data-y="3000" data-rotate="90" data-scale="1">
-		<h1>Navigasi</h1>
+    <div id="its" class="step section" data-x="550" data-y="1500" data-rotate="90" data-scale="1">
+		<h1>Navigasi</h1> <hr />
 		<p>
-			<b>navigasi ke atas </b> panah atas, atau 'k' <br />
-			<b>navigasi ke bawah</b> panah bawah, atau 'j' <br />
-			<b>navigasi ke kanan</b> gunakan panah kanan, atau 'l' <br />
-			<b>pindah ke kata berikutnya</b> gunakan 'w' <br />
-			<b>pindah ke kata sebelumnya</b> gunakan 'b' <br />
-			<b>pindah ke akhir kata</b>  gunakan 'e' <br />
+			<b>navigasi ke atas : </b> panah atas, atau 'k' <br />
+			<b>navigasi ke bawah : </b> panah bawah, atau 'j' <br />
+			<b>navigasi ke kanan : </b> gunakan panah kanan, atau 'l' <br />
+			<b>pindah ke kata berikutnya : </b> gunakan 'w' <br />
+			<b>pindah ke kata sebelumnya :</b> gunakan 'b' <br />
+			<b>pindah ke akhir kata : </b>  gunakan 'e' <br />
+			<b>pindah ke baris tertentu: </b> nomorbaris di ikuti dengan 'G', contoh (10G) untuk loncat ke baris 10, atau bisa dengan cara masuk ke mode command line kemudian ketik :nomorbaris <enter>, contohnya :20 
 	</p>	
 		</div>
 
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+    <div class="step section" data-x="-500" data-y="1500" data-rotate="90" data-scale="1">
+		<h1>Penghapusan</h1> <hr />
+		<p>
+			<b>menghapus 1 karakter ke kiri </b> gunakan 'x' <br />
+			<b>menghapus 1 kata </b>gunakan 'dw' <br />
+			<b>menghapus n kata </b>gunakan 'jumlahkata+dw', misal menghapus dua kata ke kanan gunakan 2dw <br />
+			<b>menghapus 1 baris</b> gunakan 'dd' <br />
+			<b>menghapus n baris kebawah</b> gunakan 'jumlahbaris+dd', misal menghapus 2 baris kebawah gunakan 2dd <br />
+			<b>menghapus karakter mulai dari posisi awal kursor sampai akhir baris </b>  gunakan 'd$' <br />
+			<b>menghapus karakter mulai dari posisi kursos sampai awal baris </b>  gunakan 'd0' <br /> 
+			<b>menghapus seluruh baris</b>  gunakan ':%d' di mode command-line 
+		</p>	
+</div>
+
+    <div class="step section" data-x="-500" data-y="3000" data-rotate="90" data-scale="1">
+		<h1>Pencarian/pengubahan</h1>
+		<p>
+			<b>mengubah 1 karakter  </b> gunakan 'r' <br />
+			<b>mengubah 1 kata </b>gunakan 'cw' <br />
+			<b>mengubah 1 baris </b>gunakan 'cc' <br />
+			<b>mencari 1 kata</b> gunakan /kata di mode command-line/normal
+		</p>	
+</div>
+<div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
         <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
     </div>
 

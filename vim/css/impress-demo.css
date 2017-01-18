@@ -258,7 +258,6 @@ a:focus {
     font-size: 64px;
     position: absolute;
     top: -0.5em;
-    left: 1.5em;
 
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
@@ -275,6 +274,7 @@ a:focus {
     -ms-transform:     translateZ(50px);
     -o-transform:      translateZ(50px);
     transform:         translateZ(50px);
+	font-weight: 600;
 }
 
 #title .footnote {
