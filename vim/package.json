@@ -30,6 +30,7 @@
     "test:dev": "karma start"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.6",
     "buildify": "*",
     "chrome": "0.1.0",
     "firefox": "*",

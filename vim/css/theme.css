@@ -15,10 +15,14 @@ body {
   background: #2ec4b6;
   color: #011627; }
 
+.disabled {
+  display: none; }
+
 .section h1 {
   font-size: 70px;
   font-family: "Raleway", sans-serif;
   margin-bottom: -27px;
+  font-family: 'PT Sans';
   font-weight: 700;
   letter-spacing: -2px;
   margin-bottom: 10px;
@@ -44,9 +48,9 @@ body {
 
 #intro h3 {
   font-size: 100px;
-  font-family: "Oswald", sans-serif;
   margin-bottom: -27px;
-  letter-spacing: 3px; }
+  font-family: 'PT Sans';
+  letter-spacing: -6px; }
 
 #intro p {
   font-size: 30pt;
