@@ -23,13 +23,22 @@ gulp.task('sass', function () {
     .pipe(bs.stream());
 });
  
+gulp.task('css', function () {
+  return gulp.src('./src/css/**/*.css')
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(gulp.dest('./css'))
+    .pipe(bs.stream());
+});
+
+
 gulp.task('sass:watch', function () {
     gulp.watch('./src/sass/**/*.scss', ['sass']);
 });
 
 gulp.task('watch',['browser-sync'], function() {
-    gulp.watch('./src/sass/**/*.scss', ['sass']);
+    gulp.watch('src/sass/**/*.scss', ['sass']);
+    gulp.watch('src/css/**/*.css', ['css']);
     gulp.watch("*.html").on('change', bs.reload);
-    gulp.watch("*.js").on('change', bs.reload);
-    gulp.watch("*.css").on('change', bs.reload);
+    gulp.watch(".js/*.js").on('change', bs.reload);
+    gulp.watch("css/*.css").on('change', bs.reload);
 });

@@ -1,0 +1,94 @@
+@import 'palette';
+
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	min-height: 740px;
+	background: #E8E8E8 ;
+
+}
+
+
+.disabled{
+	display: none;
+}
+
+.section{
+
+	text-align:center;
+
+	.left-text{
+		text-align: left;
+	}
+	img{
+		width: 50%;
+		height: 50%;
+	}
+	h1{
+		font-size: 100px;
+		font-family: "Raleway", sans-serif;
+		margin-bottom: -27px;
+		font-family: 'PT Sans';
+		font-weight: 700;
+		letter-spacing: -2px;
+		margin-bottom: 10px;
+		line-height: 90px;
+	}
+
+	h2{
+		font-size: 50px;
+		font-family: "Raleway", sans-serif;
+		margin-bottom: -27px;
+		font-family: 'PT Sans';
+		font-weight: 700;
+		letter-spacing: -2px;
+		margin-bottom: 10px;
+		line-height: 45px;
+	}
+	
+	h6{
+		font-size: 25pt;
+	}
+
+	hr{
+		color: $color2;
+	}
+	ul {
+		font-size: 20px;
+	}
+
+	p{
+		font-size: 18pt;
+		text-align: justify;
+
+	&.center-text{
+		text-align: center;
+	}
+
+	}
+
+}
+#intro{
+	background: transparent;
+}
+
+#intro h1{
+	font-size: 150px;
+	font-weight: 800;
+	line-height: 120px;
+	font-family: "Raleway", sans-serif;
+}
+
+#intro h3 {
+	font-size: 85px;
+	margin-bottom: -27px;
+	font-family: 'PT Sans';
+	letter-spacing: -6px;
+}
+
+#intro p{
+	font-size: 30pt;
+	line-height: 50px;
+	font-weight: light;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

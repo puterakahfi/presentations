@@ -1,57 +1,74 @@
 @import "palette";
+@import "default";
 
-.section {
-	p{
-		font-size: 20pt;
-		line-height: 50px;
-		font-weight: light;
-		font-family: "Helvetica Neue", Helvetica, Arial, serif;
-	}
-	.head-lg-text {
-		font-size: $bigText;
-	}
-	.head-md-text{
-		font-size: $mediumText;
-	}
+.yellow-black{
+	background: yellow;
+	color: black;
 
-	.head-sm-text{
-		font-size: $smallText;
-	}
+	&.section {
 
-	.size-md{
-		font-size: $mediumText;
-	}
+		color:black;
+		background: black;
 
-	.size-lg{
-		font-size: $bigText;
-	}
-
-	.footnote{
-		font-size: $extraSmallText;;
-	}
-
-	hr{
-		color: $hrColor;
-		border-bottom: solid 5px $color2;
-	}
-
-
-	li{
-		display:inline-block;
-		margin: 20px;
-	 a{
-		 display:inline;
-			padding: 10px;
-			color:white;
-			font-size: 12pt;
-		
-		&:hover{
-			color:white;
-			background-color: black;
+		&.box-shadow{
+			-webkit-box-shadow: 0px 4px 20px 0px rgba(191,191,191,1);
+			background:white;
+			-moz-box-shadow: 0px 4px 20px 0px rgba(191,191,191,1);
+			box-shadow: 0px 4px 20px 0px rgba(191,191,191,1);
 		}
+		h1{
+			font-size:120px;
+		}
+		p{
+			font-size: 18pt;
+			line-height: 50px;
+			font-weight: light;
+			font-family: "Helvetica Neue", Helvetica, Arial, serif;
+		}
+		.head-lg-text {
+			font-size: $bigText;
+		}
+		.head-md-text{
+			font-size: $mediumText;
 		}
 
+		.head-sm-text{
+			font-size: $smallText;
+		}
+
+		.size-md{
+			font-size: $mediumText;
+		}
+
+		.size-lg{
+			font-size: $bigText;
+		}
+
+		.footnote{
+			font-size: $extraSmallText;;
+		}
+
+		hr{
+			color: $hrColor;
+			border-bottom: solid 5px $color2;
+		}
+
+
+		li{
+			display:inline-block;
+			margin: 20px;
+			a{
+				display:inline;
+				padding: 10px;
+				color:white;
+				font-size: 12pt;
+
+				&:hover{
+					color:white;
+					background-color: black;
+				}
+			}
+
+		}
 	}
 }
-
-
