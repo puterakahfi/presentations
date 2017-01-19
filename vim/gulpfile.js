@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var bs = require('browser-sync').create();
+var cleanCSS = require('gulp-clean-css');
 
 // Static server
 gulp.task('browser-sync', function() {
@@ -11,15 +12,15 @@ gulp.task('browser-sync', function() {
     });
 });
 
-gulp.task('default', function() {
-  // place code for your default task here
-});
+gulp.task('default',["sass","watch"]); 
 
  
 gulp.task('sass', function () {
   return gulp.src('./src/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(gulp.dest('./css'))
+    .pipe(bs.stream());
 });
  
 gulp.task('sass:watch', function () {

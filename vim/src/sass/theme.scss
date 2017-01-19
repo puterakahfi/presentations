@@ -1,6 +1,5 @@
 @import 'palette';
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,700|Raleway:400,700,900');
 
 body {
 	font-family: 'PT Sans', sans-serif;
@@ -13,8 +12,8 @@ body {
 	background: -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 	background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 	background: $color2;
-    color: $color2;
-	background:  $color4;
+    color: $textColor;
+	background: $bgColor;
 
 }
 
@@ -45,12 +44,6 @@ body {
 }
 .section hr{
 	color: $color2;
-}
-.section p {
-	font-size: 18pt;
-	line-height: 50px;
-	font-weight: light;
-	font-family: "Helvetica Neue", Helvetica, Arial, serif;
 }
 .section ul {
 	font-size: 20px;
