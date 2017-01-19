@@ -20,6 +20,19 @@ body {
 	.left-text{
 		text-align: left;
 	}
+
+	li{
+		display: inline-grid;
+		margin:10px;
+	}
+	a {
+		padding: 20px;
+
+		&:hover{
+			background: black;
+			color: white;
+		}
+	}
 	img{
 		width: 50%;
 		height: 50%;
@@ -36,14 +49,18 @@ body {
 	}
 
 	h2{
-		font-size: 50px;
+		font-size: 80px;
 		font-family: "Raleway", sans-serif;
 		margin-bottom: -27px;
 		font-family: 'PT Sans';
 		font-weight: 700;
-		letter-spacing: -2px;
 		margin-bottom: 10px;
-		line-height: 45px;
+		line-height: 80px;
+	}
+
+	h3{
+		font-size: 50px;
+		font-weight: 700;
 	}
 	
 	h6{
