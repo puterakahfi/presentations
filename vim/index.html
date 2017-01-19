@@ -8,22 +8,6 @@
 		<meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
 		<meta name="author" content="Bartek Szopka" />
 
-
-		<!--
-
-		Impress.js doesn't depend on any external stylesheets. It adds all of the styles it needs for the
-		presentation to work.
-
-		This style below contains styles only for demo presentation. Browse it to see how impress.js
-		classes are used to style presentation steps, or how to apply fallback styles, but I don't want
-		you to use them directly in your presentation.
-
-		Be creative, build your own. We don't really want all impress.js presentations to look the same,
-		do we?
-
-		When creating your own presentation get rid of this file. Start from scratch, it's fun!
-
-		-->
 		<link href="css/impress-demo.css" rel="stylesheet" />
 		<!-- import CSS -->
 		<link rel="stylesheet" href="css/element.css">
@@ -100,26 +84,12 @@
 
 					<div id="overview-intro" class="step" data-x="-10000" data-y="-1500"  data-scale="20" data-rotate="-90">
 					</div>
-					<div id="bored" class="step slide skip disabled" data-x="-1000" data-y="-1500" data-autoplay="10">
-						<h1>Basic VIM</h1>
-						<h2>Navigasi</h2>
-						<q>Aren’t you just <b>bored</b> with all those slides-based presentations?</q>
-					</div>
-
-					<div class="step slide skip disabled" data-x="0" data-y="-1500">
-						<q>Don’t you think that presentations given <strong>in modern browsers</strong> shouldn’t <strong>copy the limits</strong> of ‘classic’ slide decks?</q>
-					</div>
-
-					<div class="step slide skip disabled" data-x="1000" data-y="-1500">
-						<q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
-					</div>
-
 					<div id="vim-basic" class="step section" data-x="0" data-y="0" data-scale="4">
 						<h1 class="size-md"> DASAR-DASAR VIM<sup>*</sup></h1>
 						<span class="footnote"><h6><sup>*</sup> basic vim lainnya bisa di lihat di  <a href="http://www.openvim.com/" target="_blank">sini</a></h6></span>
 					</div>
 
-					<div id="its" class="step section" data-x="550" data-y="1500" data-rotate="90" data-scale="1">
+					<div id="vim-basic-navigation" class="step section" data-x="550" data-y="1500" data-rotate="90" data-scale="1">
 						<h1>Navigasi</h1> <hr />
 						<p>
 							<b>navigasi ke atas : </b> panah atas, atau 'k' <br />
@@ -132,7 +102,7 @@
 							</p>	
 						</div>
 
-						<div class="step section" data-x="-500" data-y="1500" data-rotate="90" data-scale="1">
+						<div id="vim-basic-deletion" class="step section" data-x="-500" data-y="1500" data-rotate="90" data-scale="1">
 							<h1>Penghapusan</h1> <hr />
 							<p>
 								<b>menghapus 1 karakter ke kiri </b> gunakan 'x' <br />
@@ -146,7 +116,7 @@
 							</p>	
 						</div>
 
-						<div class="step section" data-x="-500" data-y="3000" data-rotate="90" data-scale="1">
+						<div id="vim-basic-search" class="step section" data-x="-500" data-y="3000" data-rotate="90" data-scale="1">
 							<h2 class="left-text">Pencarian/pengubahan</h2> <hr/>
 							<p>
 								<b>mengubah 1 karakter  </b> gunakan 'r' <br />
@@ -189,6 +159,8 @@
 								<li><a href="http://vimawesome.com/plugin/vim-airline" target="_blank">vim-airline</a></li>
 								<li><a href="http://vimawesome.com/plugin/easymotion" target="_blank">Easymotion</a></li>
 							</ul>
+							<br/>
+							 <p class="center-text">anda bisa menemukan ratusan vim resource di <a href="http://vimawesome.com" target="_blank">vimawesome.com</a></p>
 						</div>
 
 
@@ -199,13 +171,15 @@
 							<iframe width="660" height="315" src="https://www.youtube.com/embed/YD9aFIvlQYs" frameborder="0" allowfullscreen></iframe>	
 						
 						</div>
-						<div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-							<p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+
+
+						<div id="colorscheme" class="step section" data-x="6700" data-y="-300" data-scale="1">
+								<h1>how about colorscheme ?</h1>
 						</div>
 
 						<div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-							<p>want to know more?</p>
-							<q><a href="http://github.com/henrikingo/impress.js">use the source</a>, Luke!</q>
+							<p>jangan khawatir, vim punya ratusan koleksi colorscheme</p>
+							<q><a href="http://vimcolors.com" target="_blank">DISINI</a></q>
 						</div>
 
 						<div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
