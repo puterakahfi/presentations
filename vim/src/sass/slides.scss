@@ -35,14 +35,22 @@
 		border-bottom: solid 5px $color2;
 	}
 
-	.tag{
-		display: inline;
-	}
 
-	ul{
-		.tag li{
-			display: inline;
+	li{
+		display:inline-block;
+		margin: 20px;
+	 a{
+		 display:inline;
+			padding: 10px;
+			color:white;
+			font-size: 12pt;
+		
+		&:hover{
+			color:white;
+			background-color: black;
 		}
+		}
+
 	}
 }
 
