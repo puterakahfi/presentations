@@ -89,23 +89,25 @@ body {
 	background: transparent;
 }
 
-#intro h1{
-	font-size: 150px;
-	font-weight: 800;
-	line-height: 120px;
-	font-family: "Raleway", sans-serif;
-}
+#intro{
+	h1{
+		font-size: 200px;
+		font-weight: 800;
+		line-height: 160px;
+		font-family: "Raleway", sans-serif;
+	}
 
-#intro h3 {
-	font-size: 85px;
-	margin-bottom: -27px;
-	font-family: 'PT Sans';
-	letter-spacing: -6px;
-}
+	h3 {
+		font-size: 85px;
+		margin-bottom: -27px;
+		font-family: 'PT Sans';
+		letter-spacing: -6px;
+	}
 
-#intro p{
-	font-size: 30pt;
-	line-height: 50px;
-	font-weight: light;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	p{
+		font-size: 40pt;
+		line-height: 50px;
+		font-weight: light;
+	}
+
 }
