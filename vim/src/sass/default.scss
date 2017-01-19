@@ -84,15 +84,35 @@ body {
 	&.center-text{
 		text-align: center;
 	}
+	a.button {
+		padding: 0.75em 2em;
+		border-radius: 2em;
+		display: inline-block;
+		color: #fff;
+		background-color: #4fc08d;
+		transition: all 0.15s ease;
+		box-sizing: border-box;
+		border: 1px solid #4fc08d;
+	}
 
+	a.button:hover{
+		opacity: 0.6;
+	}
 	a {
 		color: red;
 		padding:5px;
 	}
 
+	.box{
+		background: red;
+		border: solid 1px grey;
+	}
+
 	}
 
 }
+
+
 #intro{
 	background: transparent;
 }
@@ -118,4 +138,13 @@ body {
 		font-weight: light;
 	}
 
+}
+
+#vim-tutorial{
+
+	iframe{
+		display:inline-grid;
+		width: 500px;
+		height: 300px;
+	}
 }
