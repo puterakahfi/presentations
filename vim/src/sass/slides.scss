@@ -1,0 +1,49 @@
+@import "palette";
+
+.section {
+	p{
+		font-size: 12pt;
+		line-height: 50px;
+		font-weight: light;
+		font-family: "Helvetica Neue", Helvetica, Arial, serif;
+	}
+	.head-lg-text {
+		font-size: $bigText;
+	}
+	.head-md-text{
+		font-size: $mediumText;
+	}
+
+	.head-sm-text{
+		font-size: $smallText;
+	}
+
+	.size-md{
+		font-size: $mediumText;
+	}
+
+	.size-lg{
+		font-size: $bigText;
+	}
+
+	.footnote{
+		font-size: $extraSmallText;;
+	}
+
+	hr{
+		color: $hrColor;
+		border-bottom: solid 5px $color2;
+	}
+
+	.tag{
+		display: inline;
+	}
+
+	ul{
+		.tag li{
+			display: inline;
+		}
+	}
+}
+
+
