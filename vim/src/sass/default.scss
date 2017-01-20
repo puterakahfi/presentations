@@ -5,6 +5,7 @@ body {
 	font-family: 'PT Sans', sans-serif;
 	min-height: 740px;
 	background: #E8E8E8 ;
+	background: $bgColor;
 
 }
 
@@ -24,13 +25,23 @@ body {
 	.center-text{
 		text-align: center;
 	}
-	li{
-		display: inline-grid;
-		margin:10px;
+
+
+	.inline{
+		margin: 5px;
+		li{
+			display: inline-block;
+			margin:10px;
+			a{
+				padding: 10px;
+				border-radius: 10px;
+				border: solid 1px rgb(191, 191, 191);	
+			}
+		}
+
 	}
 	a {
-		padding: 20px;
-
+		padding: 10px;
 		&:hover{
 			background: black;
 			color: white;
@@ -66,12 +77,16 @@ body {
 		font-weight: 700;
 	}
 
+	h5{
+		font-size: 20pt;
+	}
 	h6{
 		font-size: 25pt;
 	}
 
 	hr{
-		color: $color2;
+		width: 80%;	
+		color: rgb(253, 255, 252);
 	}
 	ul {
 		font-size: 20px;
@@ -83,6 +98,11 @@ body {
 
 		&.center-text{
 			text-align: center;
+		}
+
+		a{
+			border-radius: 5px;
+			padding: 2px 10px;
 		}
 	}
 	a.button {
@@ -141,7 +161,7 @@ body {
 
 	iframe{
 		display:inline-grid;
-		width: 500px;
-		height: 300px;
+		width: 400px;
+		height: 200px;
 	}
 }
