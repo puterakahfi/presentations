@@ -534,13 +534,34 @@ a:focus {
 .impress-enabled div#impress-toolbar {
     position: fixed;
     right: 1px;
-    bottom: 1px;
+    bottom: 10px;
     opacity: 0.6;
 }
 .impress-enabled div#impress-toolbar > span {
     margin-right: 10px;
 }
 
+
+.impress-enabled div#colorscheme {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+	
+}
+
+#colorscheme li{
+	display: block;
+	border: solid 1px black;
+	padding: 5px;
+	cursor: pointer;
+}
+
+#colorscheme li a{
+	background: transparent;
+}
+#colorscheme li a:hover{
+	opacity: .5;
+}
 /*
     With help from the mouse-timeout plugin, we can hide the toolbar and
     have it show only when you move/click/touch the mouse.

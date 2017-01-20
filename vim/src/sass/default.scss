@@ -163,3 +163,26 @@ body {
 		height: 200px;
 	}
 }
+
+.impress-navigation-ui, .impress-autoplay{
+	padding:5px  15px;
+	border:solid 1px black;
+	margin: 0px 5px;
+	height: 30px;
+	background: transparent;	
+}
+
+
+div#colorscheme{
+	z-index: 0;
+	position: fixed;
+	right : 0;
+	.yellow-black{
+		background: rgb(253, 192, 38);
+	}
+
+	.black-yellow{
+		color: yellow;
+	}
+	
+}
