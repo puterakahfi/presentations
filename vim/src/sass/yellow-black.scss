@@ -1,0 +1,46 @@
+@import "palette";
+
+.yellow-black{
+	background: yellow;
+	color: black;
+
+	hr{
+		border: solid 2px black;
+	}
+
+	.section{
+
+		.inline li a {
+			padding: 10px;
+			border-radius: 10px;
+			border: 1px solid black;
+			background: transparent;
+		}
+		.inline li a:hover{
+			background: black;
+		}
+	}
+}
+
+
+.black-yellow{
+	background: black;
+	color:white;
+
+	hr{
+		border: solid 2px black;
+	}
+
+	.section{
+
+		.inline li a {
+			padding: 10px;
+			border-radius: 10px;
+			border: 1px solid black;
+			background: transparent;
+		}
+		.inline li a:hover{
+			background: black;
+		}
+	}
+}
